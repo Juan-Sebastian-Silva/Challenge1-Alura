@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de textos</title>
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Encriptador de textos</h1>
+    </header>
+    <main class="container">
+        <section class="left-section">
+            <div class="espacio__textos__input">
+                <input type="text" id="texto__encriptar" name="texto__encriptar" placeholder="Ingresa tu texto aquí">
+                <div class="advertencia">
+                    <span class="alerta">&#9888;</span> solo minúsculas y sin acentos.
+                </div>
+            </div>
+            <div class="presentacion__botones">
+                <button id="btn-encriptar" class="container__boton">Encriptar</button>
+                <button id="btn-desencriptar" class="container__boton">Desencriptar</button>
+            </div>
+        </section>
+        <section id="texto__resultado" class="texto__resultado">
+            <div class="resultado__container">
+                <img id="imagen__resultado" src="./Assets/Muñeco.png" alt="Imagen Sin resultados">
+                <p id="mensaje__resultado">Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Juan Sebastian Silva</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
